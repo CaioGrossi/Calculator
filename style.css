@@ -1,0 +1,39 @@
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(4, 70px);
+}
+
+#display {
+    height: 55px;
+    width: 280px;
+    font-size: 50px;
+    background-color: #d3d4d8;
+}
+.number {
+    background-color: #323232;
+    border: 0;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+.operator {
+    background-color: #ff8500;
+    border: 0;
+    font-size: 25px;
+}
+#calculator {
+    width: 280px;
+    margin-left: 40px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background: linear-gradient(90deg, rgba(0,3,36,1) 0%, rgba(60,58,89,1) 25%, rgba(0,212,255,1) 100%);
+}
