@@ -70,27 +70,16 @@ function updateExpressionArray (result, index) {
 
     for (let i = 0; i < expressionArray.length; i++) {
 
-        if ((i + 1) == index) {
-            newExpressionArray.push(result);
-
-            for (j = 3; j < expressionArray.length; j++) {
-                newExpressionArray.push(expressionArray[j]);
-            }
-
-            break;
+        if (i == index) {
+            expressionArray[i] = "Removed";
+            expressionArray[i + 1] = "Removed";
+            newExpressionArray.pop();
+            newExpressionArray.push(result)
         }
 
-        else if((i + 2) == index) {
+        else if (expressionArray[i] != "Removed") {
             newExpressionArray.push(expressionArray[i]);
-            newExpressionArray.push(result);
-            expressionArray[i + 1] = "Removed"
-            expressionArray[i + 2] = "Removed";
-            expressionArray[i + 3] = "Removed";
-            index = 0;
         }
-
-        else if (expressionArray[i] != "Removed")
-            newExpressionArray.push(expressionArray[i]);
     }
 
     return newExpressionArray;
@@ -162,6 +151,11 @@ function calculateExpression () {
 
      if (numberOfLowOperations > 0) {
         calculateLowOperations(numberOfLowOperations);
+     }
+
+     if (expressionArray[0] == "Infinity") {
+        expressionArray.pop();
+        expressionArray.push("Error")
      }
     
 }

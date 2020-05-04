@@ -8,8 +8,9 @@
 #display {
     height: 55px;
     width: 280px;
-    font-size: 50px;
+    font-size: 38px;
     background-color: #d3d4d8;
+    overflow: auto;
 }
 .number {
     background-color: #323232;
