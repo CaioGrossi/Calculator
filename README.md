@@ -1,4 +1,4 @@
 # Calculator
-A simple calculator made in JavaScript.
+Calculadora feita em JS puro.
 
 https://caiogrossi.github.io/calculator/
