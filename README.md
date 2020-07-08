@@ -1,4 +1,6 @@
 # Calculator
-Calculadora feita em JS puro.
+Calculadora feita em Javascript puro.
 
-https://caiogrossi.github.io/calculator/
+## Estudado 
+* Conceitos do Javascript e sua aplicações
+* Javascript no geral
