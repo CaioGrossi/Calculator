@@ -3,10 +3,14 @@ Calculadora feita em javacript para operações simples como adicão, subtraçã
 <p align="center">
   <img src="demo/calculator.gif" />
 </p>
+
 ## Pré-requisitos
 Ter um browser
+
 ## Como executar
+
 Vá até a paste do projeto e clique no arquivo HTML, irá abrir direto no seu browser principal.
 para executar o projeto.
+
 ## Estudado
 * Javascript
